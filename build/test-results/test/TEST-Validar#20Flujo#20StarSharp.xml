@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validar Flujo StarSharp" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-05-31T03:14:05" hostname="CHMEPPF0YRWAJ" time="109.972">
+  <properties/>
+  <testcase name="Validar ingreso y crear unidad" classname="Validar Flujo StarSharp" time="55.818"/>
+  <testcase name="Validar ingreso y reunion" classname="Validar Flujo StarSharp" time="53.913"/>
+  <system-out><![CDATA[Abrir url StarSharp
+ingreso a la url StarShaps
+se ingresan los datos del usuario 
+Datos del usuario ingresados con exito
+Se ha creado BusinessUnit con exito
+Se ha Grabado la locacion con exito
+Se ha Grabado la Reunion con exito
+]]></system-out>
+  <system-err><![CDATA[may 30, 2021 10:14:06 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, chrome.switches: --disable-extensions,--star..., goog:chromeOptions: {args: [--disable-extensions, --start-maximized, --test-type, --user-agent=New User Agent], extensions: [], prefs: {pdfjs.disabled: true, profile_default_content_settings.popups: 0}}, handlesAlerts: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 40753
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may 30, 2021 10:14:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Validar ingreso y crear unidad
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Validar ingreso y reunion
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
